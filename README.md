@@ -29,3 +29,20 @@ Disarankan menggunakan cara **`clone`** ini dibandingkan dengan download manual.
 Jika anda menggunakan Lazarus, proses instalasi nya lakukan langkah berikut ini
 * Buka file **`nanoid_pascal.lpk`**
 * Kemudian pada Package nanoID_pascal klik tombol **`compile`**
+
+![Compile NanoID Pascal](https://github.com/papandut/NanoID-Pascal/blob/main/images/Package%20Compile.png)
+
+* Setelah di **`compile`** maka selanjutnya klik tombol **``use > install`**
+
+
+![Install NanoID Pascal](https://github.com/papandut/NanoID-Pascal/blob/main/images/Package%20Install.png)
+
+* Setelah berhasil di install NanoID Pascal akan berada di komponen **`zaniDEV`**
+
+![Install NanoID Pascal](https://github.com/papandut/NanoID-Pascal/blob/main/images/Package%20Komponen.png)
+
+### Pengguna Delphi
+Menyusul
+
+
+
