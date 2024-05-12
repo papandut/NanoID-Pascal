@@ -34,6 +34,7 @@ function TNumGen.RandomGenerator(size: Integer; alphabet: string = SAFE_SYMBOLS)
 var
     len, mask, step, maxIterasi, charIndex, j,i: Integer;
     bytes: TBytes;
+    //byteValue: Byte;
     id: string;
 begin
     len := Length(alphabet);
@@ -48,8 +49,9 @@ begin
 
       for j := 0 to High(bytes) do
       begin
-
+        //byteValue := bytes[i] and mask;
         charIndex:= bytes[j] and mask;
+        //if byteValue < Length(alphabet) then
         if charIndex < len then;
         begin
            id := id + alphabet[charIndex];
